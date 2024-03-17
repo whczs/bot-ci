@@ -17,7 +17,7 @@ jobs:
 
       - name: auto-commit
         run: |
-          git config --local user.email "wanghczs@163.com"
+          git config --local user.email "whczs"
           git config --local user.name "whczs"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
